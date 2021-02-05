@@ -1,0 +1,25 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <labelfor="health">monster: </label>
+        <meter
+            id="health"
+            min="0" max="100"
+            low="40" high="70" optimum="80"
+            value="100">
+        </meter>      
+        <input type="button" id="attack" value="attack the monster"></input><br>
+        <img src="begin.jpg" alt="The monster" height="300" >
+        <script src="health.js"></script>
+        <script>
+             if (hb.value == 0){
+            
+            document.write("You Win!")
+        }
+        </script>
+        
+        
+    </body>
+</html>
